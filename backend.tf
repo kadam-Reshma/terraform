@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "kadam.app"
+    bucket = "mydev-tf-state-bucket-10"
     region = "us-east-1"
     key = "eks/terraform.tfstate"
   }
